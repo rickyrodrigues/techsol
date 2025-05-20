@@ -1,0 +1,1 @@
+// Any blog-specific JavaScript code should go here - currently most code is in golbal.js
