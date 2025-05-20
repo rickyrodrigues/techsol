@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | TechSolutions</title>
+    <!-- Meta tags for SEO -->
+    <meta name="description" content="Explore TechSolutions' portfolio of successful projects across web development, mobile apps, cloud services, and cybersecurity solutions.">
+    <meta name="keywords" content="TechSolutions portfolio, IT projects, web development examples, mobile app portfolio">
+    
+    <!-- Bootstrap 5.3 CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <!-- Lightbox CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+
+     <link rel="stylesheet" href="css/style.css"> and <link rel="stylesheet" href="css/portfolio.css">
+</head>
+<body>
+<!-- Header/Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">
+            Tech<span class="text-primary">Solutions</span>
+        </a>
+        
+        <!-- Mobile Toggle Button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                <li class="nav-item"><a class="nav-link active" href="portfolio.html">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                <li class="nav-item ms-2">
+                    <button class="mode-toggle btn btn-outline-secondary rounded-circle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Page Header -->
+<section class="page-header position-relative text-white py-5"
+         style="background-image: url('images/team/index/hero.png'); background-size: cover; background-position: center;">
+    <div class="page-header-overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <h1 class="display-4 fw-bold mb-3" data-aos="fade-up">Our Portfolio</h1>
+                <p class="lead mb-0" data-aos="fade-up" data-aos-delay="100">
+                    Explore our featured projects and success stories
+                </p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Portfolio Section -->
+    <section class="portfolio-section">
+        <div class="container">
+            <div class="row mb-5 text-center">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="fw-bold mb-3" data-aos="fade-up">Showcasing Our Work</h2>
+                    <p class="lead text-muted" data-aos="fade-up" data-aos-delay="100">Browse through our diverse range of successful projects</p>
+                </div>
+            </div>
+            
+            <!-- Layout Toggle -->
+            <div class="row justify-content-center mb-4">
+                <div class="col-md-6 text-center layout-toggle" data-aos="fade-up">
+                    <span class="d-inline-block me-2">Layout Style:</span>
+                    <button type="button" class="layout-btn active" data-layout="grid" aria-label="Grid Layout">
+                        <i class="fas fa-th"></i>
+                    </button>
+                    <button type="button" class="layout-btn" data-layout="masonry" aria-label="Masonry Layout">
+                        <i class="fas fa-th-large"></i>
+                    </button>
+                    <button type="button" class="layout-btn" data-layout="full-width" aria-label="Full Width Layout">
+                        <i class="fas fa-grip-horizontal"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Filter Buttons -->
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-8 text-center" data-aos="fade-up">
+                    <button class="btn btn-outline-primary filter-btn active" data-filter="all">All Projects</button>
+                    <button class="btn btn-outline-primary filter-btn" data-filter="web">Web Development</button>
+                    <button class="btn btn-outline-primary filter-btn" data-filter="mobile">Mobile Apps</button>
+                    <button class="btn btn-outline-primary filter-btn" data-filter="cloud">Cloud Solutions</button>
+                    <button class="btn btn-outline-primary filter-btn" data-filter="security">Cybersecurity</button>
+                </div>
+            </div>
+            
+            <!-- Portfolio Grid -->
+            <div class="row portfolio-container grid-layout">
+                <!-- Item 1 -->
+                <div class="col-md-6 col-lg-4 portfolio-wrapper" data-category="web">
+                    <div class="portfolio-item" data-aos="fade-up" data-aos-delay="100">
+                        <div class="category-badge">Web Development</div>
+                        <img src="images\portfolio\ecommerce.png" alt="E-commerce Website" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <h5>E-commerce Platform</h5>
+                            <p>Responsive online store with payment integration</p>
+                            <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#portfolioModal1">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Item 2 -->
+
+                                <div class="col-md-6 col-lg-4 portfolio-wrapper" data-category="web">
+                    <div class="portfolio-item" data-aos="fade-up" data-aos-delay="200">
+                        <div class="category-badge">Web Development</div>
+                        <img src="images\portfolio\edu.png" alt="Educational Platform" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <h5>Educational Platform</h5>
+                            <p>Interactive learning management system with video integration</p>
+                            <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#portfolioModal5">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Item 3 -->
+                <div class="col-md-6 col-lg-4 portfolio-wrapper" data-category="web">
+                    <div class="portfolio-item" data-aos="fade-up" data-aos-delay="300">
+                        <div class="category-badge">Web Development</div>
+                        <img src="images\portfolio\saas.png" alt="SaaS Dashboard" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <h5>SaaS Dashboard</h5>
+                            <p>Comprehensive analytics dashboard for data visualization</p>
+                            <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#portfolioModal9">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                
+
+                
+                <!-- Item 4 -->
+                <div class="col-md-6 col-lg-4 portfolio-wrapper" data-category="security">
+                    <div class="portfolio-item" data-aos="fade-up" data-aos-delay="100">
+                        <div class="category-badge">Cybersecurity</div>
+                        <img src="images\portfolio\cybersec.png" alt="Security Infrastructure" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <h5>Security Infrastructure</h5>
+                            <p>Comprehensive security overhaul for healthcare provider</p>
+                            <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#portfolioModal4">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Item 5 -->
+                <div class="col-md-6 col-lg-4 portfolio-wrapper" data-category="mobile">
+                    <div class="portfolio-item" data-aos="fade-up" data-aos-delay="200">
+                        <div class="category-badge">Mobile App</div>
+                        <img src="images\portfolio\fitness.png" alt="Fitness Tracking App" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <h5>Fitness Tracker App</h5>
+                            <p>iOS & Android fitness monitoring application</p>
+                            <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#portfolioModal2">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <!-- Item 6 -->
+                <div class="col-md-6 col-lg-4 portfolio-wrapper" data-category="mobile">
+                    <div class="portfolio-item" data-aos="fade-up" data-aos-delay="300">
+                        <div class="category-badge">Mobile App</div>
+                        <img src="images\portfolio\food.png" alt="Food Delivery App" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <h5>Food Delivery App</h5>
+                            <p>On-demand restaurant delivery application with real-time tracking</p>
+                            <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#portfolioModal6">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Item 7 -->
+                <div class="col-md-6 col-lg-4 portfolio-wrapper" data-category="security">
+                    <div class="portfolio-item" data-aos="fade-up" data-aos-delay="100">
+                        <div class="category-badge">Cybersecurity</div>
+                        <img src="images\portfolio\vurneubility.png" alt="Vulnerability Assessment" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <h5>Vulnerability Assessment</h5>
+                            <p>Complete security audit and penetration testing for e-commerce platform</p>
+                            <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#portfolioModal7">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Item 8 -->
+                <div class="col-md-6 col-lg-4 portfolio-wrapper" data-category="cloud">
+                    <div class="portfolio-item" data-aos="fade-up" data-aos-delay="200">
+                        <div class="category-badge">Cloud Solution</div>
+                        <img src="images\portfolio\serverless.png" alt="Serverless Architecture" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <h5>Serverless Architecture</h5>
+                            <p>Scalable serverless backend for high-traffic application</p>
+                            <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#portfolioModal8">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Item 9 -->
+
+                <div class="col-md-6 col-lg-4 portfolio-wrapper" data-category="cloud">
+                    <div class="portfolio-item" data-aos="fade-up" data-aos-delay="300">
+                        <div class="category-badge">Cloud Solution</div>
+                        <img src="images\portfolio\cloud.png" alt="Cloud Migration Project" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <h5>Cloud Migration</h5>
+                            <p>Enterprise-level AWS migration for a financial firm</p>
+                            <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#portfolioModal3">View Details</button>
+                        </div>
+                    </div>
+                </div>
+            
+            <!-- Load More Button -->
+            <div class="row mt-5">
+                <div class="col-12 text-center" data-aos="fade-up">
+                    <button id="loadMore" class="btn btn-primary btn-lg">Load More Projects</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA Section -->
+    <section class="py-5 bg-primary text-white">
+        <div class="container py-4">
+            <div class="row align-items-center">
+                <div class="col-lg-9 mb-4 mb-lg-0" data-aos="fade-right">
+                    <h2 class="fw-bold mb-2">Ready to start your next project with us?</h2>
+                    <p class="lead mb-0">Contact us today and bring your ideas to life.</p>
+                </div>
+                <div class="col-lg-3 text-lg-end" data-aos="fade-left">
+                    <a href="contact.html" class="btn btn-light btn-lg">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-4">Tech<span class="text-primary">Solutions</span></h4>
+                    <p>Providing innovative IT solutions for businesses of all sizes since 2010.</p>
+                    <div class="mt-4">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-white mb-4">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html" class="text-white-50 text-decoration-none">Home</a></li>
+                        <li class="mb-2"><a href="about.html" class="text-white-50 text-decoration-none">About Us</a></li>
+                        <li class="mb-2"><a href="services.html" class="text-white-50 text-decoration-none">Services</a></li>
+                        <li class="mb-2"><a href="portfolio.html" class="text-white-50 text-decoration-none">Portfolio</a></li>
+                        <li class="mb-2"><a href="team.html" class="text-white-50 text-decoration-none">Team</a></li>
+                        <li class="mb-2"><a href="blog.html" class="text-white-50 text-decoration-none">Blog</a></li>
+                        <li class="mb-2"><a href="contact.html" class="text-white-50 text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Our Services</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="services.html#web" class="text-white-50 text-decoration-none">Web Development</a></li>
+                        <li class="mb-2"><a href="services.html#mobile" class="text-white-50 text-decoration-none">Mobile App Development</a></li>
+                        <li class="mb-2"><a href="services.html#cloud" class="text-white-50 text-decoration-none">Cloud Services</a></li>
+                        <li class="mb-2"><a href="services.html#security" class="text-white-50 text-decoration-none">Cybersecurity</a></li>
+                        <li class="mb-2"><a href="services.html#consulting" class="text-white-50 text-decoration-none">IT Consulting</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="fas fa-map-marker-alt me-2"></i> 123 Tech Street, San Francisco, CA 94107</li>
+                        <li class="mb-2"><i class="fas fa-phone-alt me-2"></i> +1 (555) 123-4567</li>
+                        <li class="mb-2"><i class="fas fa-envelope me-2"></i> info@techsolutions.com</li>
+                        <li class="mb-2"><i class="fas fa-clock me-2"></i> Monday - Friday: 9:00 AM - 5:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <hr class="my-4 bg-light">
+            
+            <div class="row">
+                <div class="row">
+                <div class="col-md-6">
+                    <p class="mb-0 text-white-50">© 2025 TechSolutions. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="mb-0 text-white-50">Designed with <i class="fas fa-heart text-danger"></i> by TechSolutions Team</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Back to Top Button -->
+    <!-- Back to Top Button -->
+<a href="#" class="btn btn-primary back-to-top position-fixed bottom-0 end-0 m-4" style="z-index: 1000 !important; border-radius: 0;">
+    <i class="fas fa-arrow-up"></i>
+</a>
+    
+    <!-- Portfolio Modal 1 -->
+    <div class="modal fade portfolio-modal" id="portfolioModal1" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold">E-commerce Platform</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-4 mb-md-0">
+                            <img src="/api/placeholder/600/450" alt="E-commerce Platform" class="img-fluid rounded">
+                        </div>
+                        <div class="col-md-6">
+                            <h5 class="fw-bold">Project Overview</h5>
+                            <p>A fully responsive e-commerce solution with seamless payment integration for a retail client. The platform includes inventory management, customer accounts, and advanced analytics.</p>
+                            
+                            <h5 class="fw-bold mt-4">Client</h5>
+                            <p>Fashion Retail Inc.</p>
+                            
+                            <h5 class="fw-bold mt-4">Project Duration</h5>
+                            <p>3 months</p>
+                            
+                            <div class="tech-stack">
+                                <h5 class="fw-bold">Technology Stack</h5>
+                                <span class="badge">React</span>
+                                <span class="badge">Node.js</span>
+                                <span class="badge">MongoDB</span>
+                                <span class="badge">Stripe API</span>
+                                <span class="badge">AWS</span>
+                            </div>
+                            
+                            <a href="#" class="btn btn-primary mt-4">View Live Site</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- More Portfolio Modals (2-9) would go here -->
+    
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+<script src="js/global.js"></script>  <script src="js/portfolio.js"></script>
+</body>
+</html>

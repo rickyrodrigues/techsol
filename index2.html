@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechSolutions | Innovative IT Services</title>
+    <!-- Meta tags for SEO -->
+    <meta name="description" content="TechSolutions provides cutting-edge IT services, web development, and digital transformation solutions for businesses of all sizes.">
+    <meta name="keywords" content="IT services, web development, digital transformation, cloud solutions">
+    
+    <!-- Bootstrap 5.3 CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css"> </head>
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                Tech<span class="text-primary">Solutions</span>
+            </a>
+            
+            <!-- Mobile Toggle Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="team.html">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item ms-2">
+                        <div class="mode-toggle">
+                            <i class="fas fa-moon"></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!-- Hero Section with Video Background -->
+<section class="hero-slider position-relative">
+    <!-- Video Background -->
+    <video autoplay muted loop playsinline class="w-100 h-100 position-absolute top-0 start-0 object-fit-cover z-n1">
+        <source src="videos/hero.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Overlay -->
+    <div class="hero-overlay d-flex align-items-center justify-content-center">
+        <div class="hero-content text-center text-white px-4">
+            <h1 class="display-3 fw-bold mb-4" data-aos="fade-up" data-aos-delay="100">Transform Your Business With Technology</h1>
+            <p class="lead mb-4" data-aos="fade-up" data-aos-delay="200">We deliver innovative IT solutions that propel your business forward in the digital landscape.</p>
+            <div data-aos="fade-up" data-aos-delay="300">
+                <a href="services.html" class="btn btn-primary btn-lg me-2">Our Services</a>
+                <a href="contact.html" class="btn btn-outline-light btn-lg">Get In Touch</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Services Highlights Section -->
+    <section class="py-5 bg-light">
+        <div class="container py-5">
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="fw-bold mb-3" data-aos="fade-up">Our Services</h2>
+                    <p class="lead text-muted" data-aos="fade-up" data-aos-delay="100">We offer comprehensive IT solutions tailored to your business needs</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <!-- Service Card 1 -->
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card service-card border-0 shadow h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="service-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h5 class="card-title mb-3">Web Development</h5>
+                            <p class="card-text text-muted">Custom websites and web applications built with the latest technologies.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Service Card 2 -->
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card service-card border-0 shadow h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="service-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <h5 class="card-title mb-3">Mobile Apps</h5>
+                            <p class="card-text text-muted">Native and cross-platform mobile applications for iOS and Android.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Service Card 3 -->
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card service-card border-0 shadow h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="service-icon">
+                                <i class="fas fa-cloud"></i>
+                            </div>
+                            <h5 class="card-title mb-3">Cloud Services</h5>
+                            <p class="card-text text-muted">Cloud migration, hosting, and management solutions for your business.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Service Card 4 -->
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card service-card border-0 shadow h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="service-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h5 class="card-title mb-3">Cybersecurity</h5>
+                            <p class="card-text text-muted">Protect your data and infrastructure with our advanced security solutions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-5" data-aos="fade-up" data-aos-delay="500">
+                <a href="services.html" class="btn btn-primary">View All Services</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Why Choose Us Section -->
+    <section class="py-5">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+                    <img src="images/index/story.png" alt="Why Choose TechSolutions" class="img-fluid rounded shadow">
+                </div>
+                
+                <div class="col-lg-6" data-aos="fade-left">
+                    <h2 class="fw-bold mb-4">Why Choose Us?</h2>
+                    <p class="lead mb-4">With over 10 years of experience delivering cutting-edge IT solutions, we've helped hundreds of businesses achieve digital success.</p>
+                    
+                    <div class="d-flex mb-3">
+                        <div class="me-3 text-primary">
+                            <i class="fas fa-check-circle fa-2x"></i>
+                        </div>
+                        <div>
+                            <h5>Expert Team</h5>
+                            <p class="text-muted">Our team consists of certified professionals with deep industry experience.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex mb-3">
+                        <div class="me-3 text-primary">
+                            <i class="fas fa-check-circle fa-2x"></i>
+                        </div>
+                        <div>
+                            <h5>Custom Solutions</h5>
+                            <p class="text-muted">We develop tailored solutions that address your specific business challenges.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex mb-3">
+                        <div class="me-3 text-primary">
+                            <i class="fas fa-check-circle fa-2x"></i>
+                        </div>
+                        <div>
+                            <h5>24/7 Support</h5>
+                            <p class="text-muted">Round-the-clock technical support to ensure your systems run smoothly.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex">
+                        <div class="me-3 text-primary">
+                            <i class="fas fa-check-circle fa-2x"></i>
+                        </div>
+                        <div>
+                            <h5>Affordable Pricing</h5>
+                            <p class="text-muted">Competitive rates with flexible pricing models to suit businesses of all sizes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Featured Portfolio Section -->
+    <section class="py-5 bg-light">
+        <div class="container py-5">
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="fw-bold mb-3" data-aos="fade-up">Featured Projects</h2>
+                    <p class="lead text-muted" data-aos="fade-up" data-aos-delay="100">Take a look at some of our recent work</p>
+                </div>
+            </div>
+            
+            <div class="row">
+    <!-- Portfolio Item 1 -->
+    <div class="col-md-6 col-lg-4 mb-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="card border-0 shadow">
+            <img src="images/portfolio/ecommerce.png" class="card-img-top" alt="E-commerce Website">
+            <div class="card-body">
+                <h5 class="card-title">E-commerce Platform</h5>
+                <p class="card-text text-muted">A fully responsive online store with payment gateway integration.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-muted">Web Development</small>
+                    <a href="portfolio.html" class="btn btn-sm btn-outline-primary">View Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Portfolio Item 2 -->
+    <div class="col-md-6 col-lg-4 mb-4" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card border-0 shadow">
+            <img src="images/portfolio/saas.png" class="card-img-top" alt="SaaS Dashboard">
+            <div class="card-body">
+                <h5 class="card-title">SaaS Dashboard</h5>
+                <p class="card-text text-muted">Comprehensive analytics dashboard for data visualization</p>
+                <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-muted">Web Development</small>
+                    <a href="portfolio.html" class="btn btn-sm btn-outline-primary">View Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Portfolio Item 3 -->
+    <div class="col-md-6 col-lg-4 mb-4" data-aos="zoom-in" data-aos-delay="300">
+        <div class="card border-0 shadow">
+            <img src="images/portfolio/cloud.png" class="card-img-top" alt="Cloud Migration">
+            <div class="card-body">
+                <h5 class="card-title">Enterprise Cloud Migration</h5>
+                <p class="card-text text-muted">Seamless migration of legacy systems to AWS cloud infrastructure.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-muted">Cloud Services</small>
+                    <a href="portfolio.html" class="btn btn-sm btn-outline-primary">View Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            
+            <div class="text-center mt-4" data-aos="fade-up">
+                <a href="portfolio.html" class="btn btn-primary">View All Projects</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials Section -->
+    <section class="py-5 bg-primary text-white">
+        <div class="container py-5">
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="fw-bold mb-3" data-aos="fade-up">What Our Clients Say</h2>
+                    <p class="lead" data-aos="fade-up" data-aos-delay="100">Don't just take our word for it - hear from some of our satisfied clients</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-12">
+                    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <!-- Testimonial 1 -->
+                            <div class="carousel-item active">
+                                <div class="testimonial-card text-dark">
+                                    <div class="quote-icon mb-3">
+                                        <i class="fas fa-quote-left"></i>
+                                    </div>
+                                    <p class="mb-4">TechSolutions transformed our business operations with their custom ERP system. Their team was professional, responsive, and delivered beyond our expectations.</p>
+                                    <div class="d-flex align-items-center">
+                                        <img src="images\team\cm.png" alt="Client" class="testimonial-img">
+                                        <div>
+                                            <h5 class="mb-0">Sarah Johnson</h5>
+                                            <p class="mb-0 text-muted">CEO, Johnson Retail</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Testimonial 2 -->
+                            <div class="carousel-item">
+                                <div class="testimonial-card text-dark">
+                                    <div class="quote-icon mb-3">
+                                        <i class="fas fa-quote-left"></i>
+                                    </div>
+                                    <p class="mb-4">The mobile app developed by TechSolutions has significantly increased our customer engagement. Their attention to detail and user experience expertise is outstanding.</p>
+                                    <div class="d-flex align-items-center">
+                                        <img src="images\team\jm.png" alt="Client" class="testimonial-img">
+                                        <div>
+                                            <h5 class="mb-0">Michael Chen</h5>
+                                            <p class="mb-0 text-muted">Marketing Director, InnovateTech</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Testimonial 3 -->
+                            <div class="carousel-item">
+                                <div class="testimonial-card text-dark">
+                                    <div class="quote-icon mb-3">
+                                        <i class="fas fa-quote-left"></i>
+                                    </div>
+                                    <p class="mb-4">After TechSolutions implemented our cybersecurity system, we've had zero breaches. Their ongoing support and proactive monitoring have given us peace of mind.</p>
+                                    <div class="d-flex align-items-center">
+                                        <img src="/api/placeholder/100/100" alt="Client" class="testimonial-img">
+                                        <div>
+                                            <h5 class="mb-0">Emily Rodriguez</h5>
+                                            <p class="mb-0 text-muted">CTO, SecureFinance Inc.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Carousel Controls -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Client Logos Section -->
+    <section class="py-5">
+        <div class="container py-4">
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="fw-bold mb-3" data-aos="fade-up">Trusted By</h2>
+                    <p class="lead text-muted" data-aos="fade-up" data-aos-delay="100">Companies that trust our services</p>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center">
+                <!-- Client Logo 1 -->
+                <div class="col-4 col-md-2 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <img src="images\companies\food.png" alt="Client Logo" class="client-logo mx-auto d-block">
+                </div>
+                
+                <!-- Client Logo 2 -->
+                <div class="col-4 col-md-2 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <img src="images\companies\v.png" alt="Client Logo" class="client-logo mx-auto d-block">
+                </div>
+                
+                <!-- Client Logo 3 -->
+                <div class="col-4 col-md-2 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <img src="images\companies\tech2.png" alt="Client Logo" class="client-logo mx-auto d-block">
+                </div>
+                
+                <!-- Client Logo 4 -->
+                <div class="col-4 col-md-2 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <img src="images\companies\cp.png" alt="Client Logo" class="client-logo mx-auto d-block">
+                </div>
+                
+                <!-- Client Logo 5 -->
+                <div class="col-4 col-md-2 mb-4" data-aos="fade-up" data-aos-delay="500">
+                    <img src="images\companies\nova.png" alt="Client Logo" class="client-logo mx-auto d-block">
+                </div>
+                
+                <!-- Client Logo 6 -->
+                <div class="col-4 col-md-2 mb-4" data-aos="fade-up" data-aos-delay="600">
+                    <img src="images\companies\sum.png" alt="Client Logo" class="client-logo mx-auto d-block">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Newsletter Section -->
+    <section class="py-5 bg-light">
+        <div class="container py-5">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-8" data-aos="fade-up">
+                    <h2 class="fw-bold mb-3">Subscribe to Our Newsletter</h2>
+                    <p class="lead text-muted mb-4">Stay updated with our latest news and offers</p>
+                    
+                    <form class="newsletter-form">
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" placeholder="Enter your email" aria-label="Email address" required>
+                            <button class="btn btn-primary" type="submit">Subscribe</button>
+                        </div>
+                        <div class="form-text">We'll never share your email with anyone else.</div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-4">Tech<span class="text-primary">Solutions</span></h4>
+                    <p>Providing innovative IT solutions for businesses of all sizes since 2010.</p>
+                    <div class="mt-4">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-white mb-4">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html" class="text-white-50 text-decoration-none">Home</a></li>
+                        <li class="mb-2"><a href="about.html" class="text-white-50 text-decoration-none">About Us</a></li>
+                        <li class="mb-2"><a href="services.html" class="text-white-50 text-decoration-none">Services</a></li>
+                        <li class="mb-2"><a href="portfolio.html" class="text-white-50 text-decoration-none">Portfolio</a></li>
+                        <li class="mb-2"><a href="team.html" class="text-white-50 text-decoration-none">Team</a></li>
+                        <li class="mb-2"><a href="blog.html" class="text-white-50 text-decoration-none">Blog</a></li>
+                        <li class="mb-2"><a href="contact.html" class="text-white-50 text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Our Services</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="services.html#web" class="text-white-50 text-decoration-none">Web Development</a></li>
+                        <li class="mb-2"><a href="services.html#mobile" class="text-white-50 text-decoration-none">Mobile App Development</a></li>
+                        <li class="mb-2"><a href="services.html#cloud" class="text-white-50 text-decoration-none">Cloud Services</a></li>
+                        <li class="mb-2"><a href="services.html#security" class="text-white-50 text-decoration-none">Cybersecurity</a></li>
+                        <li class="mb-2"><a href="services.html#consulting" class="text-white-50 text-decoration-none">IT Consulting</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="fas fa-map-marker-alt me-2"></i> 123 Tech Street, San Francisco, CA 94107</li>
+                        <li class="mb-2"><i class="fas fa-phone-alt me-2"></i> +1 (555) 123-4567</li>
+                        <li class="mb-2"><i class="fas fa-envelope me-2"></i> info@techsolutions.com</li>
+                        <li class="mb-2"><i class="fas fa-clock me-2"></i> Monday - Friday: 9:00 AM - 5:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <hr class="my-4 bg-light">
+            
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-md-0">&copy; 2025 TechSolutions. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0"><a href="#" class="text-white-50 text-decoration-none">Privacy Policy</a> | <a href="#" class="text-white-50 text-decoration-none">Terms of Service</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="btn btn-primary back-to-top position-fixed bottom-0 end-0 m-4" style="display: none;">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    
+    <!-- Custom Scripts -->
+
+    <script src="js/global.js"></script>  <script src="js/index.js"></script>
+</body>
+</html>
